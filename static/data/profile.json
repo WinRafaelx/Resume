@@ -49,7 +49,7 @@
 			"name": "Game Recommendation",
 			"details": "Python",
 			"description": "I trained a model to recommend games based on user's data (playtime, likes, etc.)",
-			"url": "t.ly/Jf0qp",
+			"url": "github.com/kyou7797/Game-Recommendation",
 			"hide": false
 		}
 	],
