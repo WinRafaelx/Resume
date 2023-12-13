@@ -1,15 +1,18 @@
 export interface IProfileResp {
 	intro: IIntro;
 	projects: IProject[];
+	activities: IActivity[];
 	technologies: ITechnology[];
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
+	certifications: ICertification[];
 	interests: string[];
 	resumeUrl: {
 		sourceLink: string;
 		fullVersionLink: string;
 	};
 }
+
 export interface IIntro {
 	name: string;
 	nickname: string;
@@ -24,7 +27,14 @@ export interface IIntro {
 export interface IProject {
 	name: string;
 	details: string;
+	description: string;
 	url: string;
+	hide: boolean;
+}
+
+export interface IActivity {
+	name: string;
+	details: string;
 	hide: boolean;
 }
 
@@ -41,7 +51,13 @@ export interface IWorkExperience {
 	details: string[];
 }
 
+export interface ICertification {
+	name: string;
+	details: string;
+}
+
 export interface IEducation {
 	head: string;
 	details: string;
+	take_courses: string;
 }

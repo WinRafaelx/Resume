@@ -3,7 +3,6 @@
 	import type { IProfileResp } from '../types';
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
-	import Kofi from './Kofi.svelte';
 	import Work from './Work.svelte';
 
 	let profile: IProfileResp;
@@ -12,9 +11,11 @@
 	$: ({
 		intro = {} as IProfileResp['intro'],
 		projects = [],
+		activities = [],
 		technologies = [],
 		workExperiences = [],
 		educations = [],
+		certifications = [],
 		interests = [],
 		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
 	} = profile || {});
@@ -27,11 +28,6 @@
 	}
 </script>
 
-<!-- Remove this is you does not want Kofi widget on your site -->
-{#if intro.github == 'narze'}
-	<Kofi name={intro.github} />
-{/if}
-
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
 	<h1 class="text-4xl">Resumette</h1>
 	<h3>
@@ -43,7 +39,7 @@
 	</p>
 	<p>You can click at any sections or lines hide some information before printing.</p>
 	<a href={sourceLink} target="_blank" rel="noopener">[Source]</a>
-	<a href={dataLink} target="_blank" rel="noopener">[Data]</a>
+	<!-- <a href={dataLink} target="_blank" rel="noopener">[Data]</a> -->
 </header>
 
 <main class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl">
@@ -57,11 +53,12 @@
 				{#each technologies as tech}
 					<Hideable>
 						<li>
-							<span class="w-28 inline-block">{tech.section}</span>
+							<span class="w-28 inline-block align-middle	">{tech.section}</span>
 							<span>{tech.details}</span>
 						</li>
 					</Hideable>
 				{/each}
+				...and is always open to learn new things.
 			</ul>
 		</Hideable>
 	</section>
@@ -75,7 +72,9 @@
 				{#each educations as edu}
 					<Hideable>
 						<li>
-							<strong>{edu.head}</strong>, {edu.details}
+							<strong>{edu.head}</strong> <br>
+							{edu.details} <br>
+							Courses: {edu.take_courses}
 						</li>
 					</Hideable>
 				{/each}
@@ -104,10 +103,47 @@
 					<Hideable hide={project.hide}>
 						<li>
 							<strong>{project.name}</strong>
-							- {project.details}
+							- <i>{project.details}</i> <br>
+							{project.description}
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"
 								><strong>{project.url}</strong></a
 							>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each activities as activity}
+					<Hideable hide={activity.hide}>
+						<li>
+							<strong>{activity.name},</strong>
+							{activity.details}
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Certifications</h2>
+			<hr />
+
+			<ul class="text-left list-disc pl-8">
+				{#each certifications as certificate}
+					<Hideable>
+						<li>
+							<strong>{certificate.name},</strong>
+							{certificate.details}
 						</li>
 					</Hideable>
 				{/each}
