@@ -11,6 +11,13 @@
 	},
 	"projects": [
 		{
+			"name": "GameAPI",
+			"details": "Golang(Jwt, Gorm, Fiber), Docker, PostgreSQL, PgAdmin",
+			"description": "Developed a REST API for game data management by using GORM for PostgreSQL storage. Integrated JWT token authentication to ensure exclusive access for authorized members.",
+			"url": "github.com/WinRafaelx/GameAPI",
+			"hide": false
+		},
+		{
 			"name": "ArtPiece",
 			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloundinary",
 			"description": "Web generate image from text using stabilityai/stable-diffusion-2-1 API",
@@ -73,7 +80,7 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C, C++, Python, Java, JavaScript, Node.js, TypeScript, Golang, SQL, Bash"
+			"details": "C, C++, Python, JavaScript, Node.js, TypeScript, Golang, SQL, Bash"
 		},
 		{
 			"section": "Libraries & Frameworks:",
@@ -125,4 +132,3 @@
 		"fullVersion": ""
 	}
 }
-
