@@ -26,6 +26,7 @@ export interface IIntro {
 
 export interface IProject {
 	name: string;
+	task: string;
 	details: string;
 	description: string;
 	url: string;

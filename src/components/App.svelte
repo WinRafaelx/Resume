@@ -102,7 +102,7 @@
 				{#each projects as project}
 					<Hideable hide={project.hide}>
 						<li>
-							<strong>{project.name}</strong>
+							<strong>{project.name} ({project.task})</strong>
 							- <i>{project.details}</i> <br>
 							{project.description}
 							<a href="https://{project.url}" target="_blank" rel="noreferrer"

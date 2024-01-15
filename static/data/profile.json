@@ -11,21 +11,32 @@
 	},
 	"projects": [
 		{
-			"name": "GameAPI",
-			"details": "Golang(Jwt, Gorm, Fiber), Docker, PostgreSQL, PgAdmin",
-			"description": "Developed a REST API for game data management by using GORM for PostgreSQL storage. Integrated JWT token authentication to ensure exclusive access for authorized members.",
-			"url": "github.com/WinRafaelx/GameAPI",
-			"hide": false
-		},
-		{
 			"name": "ArtPiece",
+			"task": "Fullstack",
 			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloundinary",
 			"description": "Web generate image from text using stabilityai/stable-diffusion-2-1 API",
 			"url": "github.com/WinRafaelx/Web_GenImage",
 			"hide": false
 		},
 		{
+			"name": "GameAPI",
+			"task": "Backend",
+			"details": "Golang(Jwt, Gorm, Fiber), Docker, PostgreSQL, PgAdmin",
+			"description": "Developed a REST API for game data management by using GORM for PostgreSQL storage. Integrated JWT token authentication to ensure exclusive access for authorized members.",
+			"url": "github.com/WinRafaelx/GameAPI",
+			"hide": false  
+		},
+		{
+			"name": "LifeLogHub",
+			"task": "Frontend",
+			"details": "ReactJS, Redux, TailwindCSS",
+			"description": "I created a website that consists of a planner, a to-do list, and diary pages and each page has a function to add, edit, and delete data. Then it will notify users on home page",
+			"url": "fancy-sprite-509d09.netlify.app/",
+			"hide": false
+		},
+		{
 			"name": "AnimeBlog",
+			"task": "Frontend",
 			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
 			"description": "Web blog about anime that users can post and comment",
 			"url": "github.com/WinRafaelx/AnimeBlog/tree/main",
@@ -33,27 +44,23 @@
 		},
 		{
 			"name": "AniHub",
-			"details": "ReactJS, NextJS, TailwindCSS",
+			"task": "Frontend",
+			"details": "NextJS, TailwindCSS",
 			"description": "Web template for anime social media consisting of post, chat and profile pages",
 			"url": "github.com/WinRafaelx/AnimeSocialHub",
 			"hide": false
 		},
 		{
 			"name": "CielBlog",
+			"task": "Frontend",
 			"details": "HTML, CSS, VanillaJS",
 			"description": "Web blog from basic tools like HTML, CSS and VanillaJS",
 			"url": "github.com/WinRafaelx/CielBlog",
 			"hide": false
 		},
 		{
-			"name": "Be Doctor",
-			"details": "HTML, Boostrap",
-			"description": "I have researched doctor careers and created a website for someone who has decided to be a doctor",
-			"url": "github.com/WinRafaelx/Be-Doctor-Web",
-			"hide": false
-		},
-		{
 			"name": "Game Recommendation",
+			"task": "Machine Learning",
 			"details": "Python",
 			"description": "I trained a model to recommend games based on user's data (playtime, likes, etc.)",
 			"url": "github.com/kyou7797/Game-Recommendation",
@@ -112,7 +119,7 @@
 	"educations": [
 		{
 			"head": "King Mongkut's University of Technology Thonburi, Thailand",
-			"details": "B.Eng. Computer Engineering, TH. 2022-Present (Expected May 2026) (GPA 3.58)",
+			"details": "B.Eng. Computer Engineering, TH. 2022-Present (Expected May 2026) (GPA 3.59)",
 			"take_courses": "Basic Computer Programming, Data Structure, Algorithm"
 		}
 	],
