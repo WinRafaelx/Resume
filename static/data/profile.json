@@ -14,7 +14,7 @@
 			"name": "ArtPiece",
 			"task": "Fullstack",
 			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloundinary",
-			"description": "Web generate image from text using stabilityai/stable-diffusion-2-1 API",
+			"description": "Web generate image from text using stabilityai/stable-diffusion-2-1 API, store image into cloudinary and then I keep the image url in MongoDB for querying to show in home page.",
 			"url": "github.com/WinRafaelx/Web_GenImage",
 			"hide": false
 		},
@@ -30,7 +30,7 @@
 			"name": "LifeLogHub",
 			"task": "Frontend",
 			"details": "ReactJS, Redux, TailwindCSS",
-			"description": "I created a website that consists of a planner, a to-do list, and diary pages and each page has a function to add, edit, and delete data. Then it will notify users on home page",
+			"description": "I created a website that consists of a planner, a to-do list, and diary pages and each page has a function to add, edit, and delete data. Then it will notify users on home page.",
 			"url": "final-project-front-end---dev-init.pages.dev/",
 			"hide": false
 		},
@@ -38,7 +38,7 @@
 			"name": "AnimeBlog",
 			"task": "Frontend",
 			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
-			"description": "Web blog about anime that users can post and comment",
+			"description": "Web blog about anime that users can post and comment likes Facebook. Users can register or login to the website and then they will be able to post and comment.",
 			"url": "anime-post.pages.dev/",
 			"hide": false
 		},
@@ -54,7 +54,7 @@
 			"name": "CielBlog",
 			"task": "Frontend",
 			"details": "HTML, CSS, VanillaJS",
-			"description": "Web blog from basic tools like HTML, CSS and VanillaJS",
+			"description": "Web blog from basic tools like HTML, CSS and VanillaJS.",
 			"url": "blog-webapp-7sn.pages.dev/",
 			"hide": false
 		},
