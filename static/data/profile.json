@@ -38,7 +38,7 @@
 			"name": "AnimeBlog",
 			"task": "Frontend",
 			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
-			"description": "Web blog about anime that users can post and comment likes Facebook. Users can register or login to the website and then they will be able to post and comment.",
+			"description": "Web blog about anime that users can register and login to post and comment likes Facebook.",
 			"url": "anime-post.pages.dev/",
 			"hide": false
 		},
