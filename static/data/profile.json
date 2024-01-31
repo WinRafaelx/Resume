@@ -39,7 +39,7 @@
 			"task": "Frontend",
 			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
 			"description": "Web blog about anime that users can post and comment",
-			"url": "github.com/WinRafaelx/AnimeBlog/tree/main",
+			"url": "anime-post.pages.dev/",
 			"hide": false
 		},
 		{
@@ -47,7 +47,7 @@
 			"task": "Frontend",
 			"details": "NextJS, TailwindCSS",
 			"description": "Web template for anime social media consisting of post, chat and profile pages",
-			"url": "github.com/WinRafaelx/AnimeSocialHub",
+			"url": "nextjs-winrafaelxs-projects.vercel.app/",
 			"hide": false
 		},
 		{
@@ -55,7 +55,7 @@
 			"task": "Frontend",
 			"details": "HTML, CSS, VanillaJS",
 			"description": "Web blog from basic tools like HTML, CSS and VanillaJS",
-			"url": "github.com/WinRafaelx/CielBlog",
+			"url": "blog-webapp-7sn.pages.dev/",
 			"hide": false
 		},
 		{
