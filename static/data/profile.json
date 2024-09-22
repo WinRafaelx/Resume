@@ -63,11 +63,11 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "C, C++, Java, Python, JavaScript, Node.js, TypeScript, Golang, SQL, Bash"
+			"details": "C, C++, Python, JavaScript, Node.js, TypeScript, Golang, SQL, Bash"
 		},
 		{
 			"section": "Libraries & Frameworks:",
-			"details": "ReactJS, NextJS, TailwindCSS, Bootstrap, MaterialUI, Vite, Django, Tailwind"
+			"details": "ReactJS, NextJS, TailwindCSS, Bootstrap, MaterialUI, Vite, Django"
 		},
 		{
 			"section": "Tools:",
@@ -75,7 +75,7 @@
 		},
 		{
 			"section": "Other:",
-			"details": "Firebase, Vercel, GitHub Actions, CloudFlare, Hugging Face, VS Code, Google Colab"
+			"details": "Firebase, Vercel, CloudFlare, Hugging Face, VS Code, Google Colab"
 		}
 	],
 	"workExperiences": [
@@ -86,9 +86,9 @@
 			"years": ["2021", "2022"],
 			"details": [
 				"Learn to use VueJS and NuxtJS to create websites.",
-				"Get to know big pictures of the website like part of frontend, backend, database, and server.",
-				"Get to know git, GitLab, and docker.",
-				"Learn to work with teams and communicate with team members."
+				"Understand web architecture, including frontend, backend, databases, and servers.",
+				"Learn Git, GitLab, and Docker for better version control and development workflows.",
+				"Learn to interact and collaborate with a developer team."
 			]
 		},
 		{
