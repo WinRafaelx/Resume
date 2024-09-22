@@ -35,6 +35,7 @@ export interface IProject {
 
 export interface IActivity {
 	name: string;
+	url: string;
 	details: string;
 	hide: boolean;
 }

@@ -124,8 +124,16 @@
 				{#each activities as activity}
 					<Hideable hide={activity.hide}>
 						<li>
-							<strong>{activity.name},</strong>
-							{activity.details}
+							{#if activity.url}
+                            <strong>
+                                <a href={activity.url} target="_blank" rel="noopener noreferrer">
+                                    {activity.name}
+                                </a>,
+                            </strong>
+                        {:else}
+                            <strong>{activity.name},</strong>
+                        {/if}
+                        {activity.details}
 						</li>
 					</Hideable>
 				{/each}

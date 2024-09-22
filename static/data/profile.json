@@ -46,6 +46,7 @@
 	"activities": [
 		{
 			"name": "Runner-up in Bootcathon 2024 by ExxonMobil",
+			"url": "https://github.com/WinRafaelx/Bootcathon_Application_Smuttee",
 			"details": "I developed “Exxon Support,” a website for local garages featuring AI-powered customer query handling with Typhoon API, a reservation service for booking appointments, and an admin dashboard for managing schedules efficiently.",
 			"hide": false
 		},
