@@ -13,8 +13,8 @@
 		{
 			"name": "ArtPiece",
 			"task": "Fullstack",
-			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloundinary",
-			"description": "Web generate image from text using stabilityai/stable-diffusion-2-1 API, store image into cloudinary and then I keep the image url in MongoDB for querying to show in home page.",
+			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloudinary",
+			"description": "Web generate an image from text using stabilityai/stable-diffusion-2-1 API, store the image into Cloudinary and then I keep the image URL in MongoDB for querying to show in home page.",
 			"url": "github.com/WinRafaelx/Web_GenImage",
 			"hide": false
 		},
@@ -27,27 +27,11 @@
 			"hide": false  
 		},
 		{
-			"name": "LifeLogHub",
-			"task": "Frontend",
-			"details": "ReactJS, Redux, TailwindCSS",
-			"description": "I created a website that consists of a planner, a to-do list, and diary pages and each page has a function to add, edit, and delete data. Then it will notify users on home page.",
-			"url": "final-project-front-end---dev-init.pages.dev/",
-			"hide": false
-		},
-		{
 			"name": "AnimeBlog",
 			"task": "Frontend",
 			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
-			"description": "Web blog about anime that users can register and login to post and comment likes Facebook.",
+			"description": "Web blog about anime that users can register and log in to post and comment likes on Facebook.",
 			"url": "anime-post.pages.dev/",
-			"hide": false
-		},
-		{
-			"name": "AniHub",
-			"task": "Frontend",
-			"details": "NextJS, TailwindCSS",
-			"description": "Web template for anime social media consisting of post, chat and profile pages",
-			"url": "nextjs-winrafaelxs-projects.vercel.app/",
 			"hide": false
 		},
 		{
@@ -57,25 +41,17 @@
 			"description": "Web blog from basic tools like HTML, CSS and VanillaJS.",
 			"url": "blog-webapp-7sn.pages.dev/",
 			"hide": false
-		},
-		{
-			"name": "Game Recommendation",
-			"task": "Machine Learning",
-			"details": "Python",
-			"description": "I trained a model to recommend games based on user's data (playtime, likes, etc.)",
-			"url": "github.com/kyou7797/Game-Recommendation",
-			"hide": false
 		}
 	],
 	"activities": [
 		{
-			"name": "1st BorntoDev Dev Init Frontend Camp",
-			"details": "Camp for developing skills to get into the IT & Dev industry. I have learned from basic to advanced front-end development from creating many websites within the scope of tools that they have limited for each project in 3 months",
+			"name": "Runner-up in Bootcathon 2024 by ExxonMobil",
+			"details": "I developed “Exxon Support,” a website for local garages featuring AI-powered customer query handling with Typhoon API, a reservation service for booking appointments, and an admin dashboard for managing schedules efficiently.",
 			"hide": false
 		},
 		{
-			"name": "3rd AI Builders Programs (2022)",
-			"details": "an 8-week program to learn and create a project about our interest topic of Machine learning or Deep learning and getting instruction from mentors. I made a game recommendation system based on data from Steam by using the neural network embedding method.",
+			"name": "1st BorntoDev Dev Init Frontend Camp",
+			"details": "Camp for developing skills to get into the IT & Dev industry. I have learned from basic to advanced front-end development from creating many websites within the scope of tools that they have limited for each project in 3 months",
 			"hide": false
 		},
 		{
@@ -91,15 +67,15 @@
 		},
 		{
 			"section": "Libraries & Frameworks:",
-			"details": "ReactJS, NextJS, TailwindCSS, Bootstrap, MaterialUI, Vite"
+			"details": "ReactJS, NextJS, TailwindCSS, Bootstrap, MaterialUI, Vite, Django, Tailwind"
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Docker, Github, MongoDB"
+			"details": "Git, Docker, GitHub, MongoDB"
 		},
 		{
 			"section": "Other:",
-			"details": "Firebase, Vercel, Github Actions, CloudFlare, Hugging Face, VS Code, Google Colab"
+			"details": "Firebase, Vercel, GitHub Actions, CloudFlare, Hugging Face, VS Code, Google Colab"
 		}
 	],
 	"workExperiences": [
@@ -109,10 +85,22 @@
 			"url": "https://nudchannel.com/",
 			"years": ["2021", "2022"],
 			"details": [
-				"Learn to use VueJS and NuxtJS to create websites",
-				"Get to know big pictures of the website like part of frontend, backend, database, and server",
-				"Get to know git, gitlab, and docker",
-				"Learn to work with teams and communicate with team members"
+				"Learn to use VueJS and NuxtJS to create websites.",
+				"Get to know big pictures of the website like part of frontend, backend, database, and server.",
+				"Get to know git, GitLab, and docker.",
+				"Learn to work with teams and communicate with team members."
+			]
+		},
+		{
+			"position": "Full-Stack Developer",
+			"company": "Looloo Technology",
+			"url": "https://loolootech.com/",
+			"years": ["June-July 2024"],
+			"details": [
+				"Developed real-world projects, including a full-scale ERP website and a demo AI website integrating APIs from the ML team.",
+				"Collaborate with cross-functional teams including product managers, admin, designer, and QA to deliver client-focused solutions.",
+				"Participate in code reviews and contribute to best practices, enhancing code quality and team knowledge sharing with mentor and fellow interns.",
+				"Engage in Agile methodologies, attending daily scrum meetings and sprint planning to improve workflow efficiency."
 			]
 		}
 	],

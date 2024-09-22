@@ -58,7 +58,7 @@
 						</li>
 					</Hideable>
 				{/each}
-				...and is always open to learn new things.
+				...and is always open to learning new things.
 			</ul>
 		</Hideable>
 	</section>
@@ -151,7 +151,7 @@
 		</Hideable>
 	</section>
 
-	<section>
+	<!-- <section>
 		<Hideable>
 			<h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
 			<hr />
@@ -166,12 +166,12 @@
 				{/each}
 			</ul>
 		</Hideable>
-	</section>
+	</section> -->
 
-	<footer class="print-only">
+	<!-- <footer class="print-only">
 		(See <a href={fullVersionLink} target="_blank" rel="noopener">full version</a>
 		or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-	</footer>
+	</footer> -->
 </main>
 
 <style lang="postcss">
