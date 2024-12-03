@@ -11,10 +11,18 @@
 	},
 	"projects": [
 		{
+			"name": "Fundflow",
+			"task": "Backend",
+			"details": "Golang(Jwt, Gorm, Gin), Postgresql, Mailjet, Docker, PgAdmin",
+			"description": "I designed and implemented the backend architecture for this app, ensuring seamless alignment with the app’s design. This included developing robust APIs for authentication, database operations, and email notifications.",
+			"url": "github.com/tawayahc/FundFlow",
+			"hide": false
+		},
+		{
 			"name": "ArtPiece",
 			"task": "Fullstack",
 			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloudinary",
-			"description": "Web generate an image from text using stabilityai/stable-diffusion-2-1 API, store the image into Cloudinary and then I keep the image URL in MongoDB for querying to show in home page.",
+			"description": "Web generates an image from text using stabilityai/stable-diffusion-2-1 API, stores the image into Cloudinary, and then I keep the image URL in MongoDB for querying to show in home page.",
 			"url": "github.com/WinRafaelx/Web_GenImage",
 			"hide": false
 		},
@@ -30,16 +38,8 @@
 			"name": "AnimeBlog",
 			"task": "Frontend",
 			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
-			"description": "Web blog about anime that users can register and log in to post and comment likes on Facebook.",
+			"description": "I created a web blog about anime that users can register and log in to post and comment likes on Facebook by using Cloud platform to manage data and authentication.",
 			"url": "anime-post.pages.dev/",
-			"hide": false
-		},
-		{
-			"name": "CielBlog",
-			"task": "Frontend",
-			"details": "HTML, CSS, VanillaJS",
-			"description": "Web blog from basic tools like HTML, CSS and VanillaJS.",
-			"url": "blog-webapp-7sn.pages.dev/",
 			"hide": false
 		}
 	],
@@ -52,7 +52,7 @@
 		},
 		{
 			"name": "1st BorntoDev Dev Init Frontend Camp",
-			"details": "Camp for developing skills to get into the IT & Dev industry. I have learned from basic to advanced front-end development from creating many websites within the scope of tools that they have limited for each project in 3 months",
+			"details": "Camp for developing skills to enter the IT & Dev industry. I have learned from basic to advanced front-end development from creating many websites within the scope of tools that they have limited for each project in 3 months",
 			"hide": false
 		},
 		{
@@ -81,27 +81,26 @@
 	],
 	"workExperiences": [
 		{
-			"position": "Frontend Developer",
-			"company": "NUD Channel",
-			"url": "https://nudchannel.com/",
-			"years": ["2021", "2022"],
+			"position": "Full-Stack Developer (part-time)",
+			"company": "SCB Tech Hub",
+			"url": "https://www.scb.co.th/th/personal-banking.html",
+			"years": ["Oct 2024", "Present"],
 			"details": [
-				"Learn to use VueJS and NuxtJS to create websites.",
-				"Understand web architecture, including frontend, backend, databases, and servers.",
-				"Learn Git, GitLab, and Docker for better version control and development workflows.",
-				"Learn to interact and collaborate with a developer team."
+				"Developed internal modules for authentication, authorization, and user management within a banking environment.",
+				"Working in a secure, privacy-focused setup built for the strong standards of banking.",
+				"Communicate in the English language"
 			]
 		},
 		{
-			"position": "Full-Stack Developer",
+			"position": "Full-Stack Developer (intern)",
 			"company": "Looloo Technology",
 			"url": "https://loolootech.com/",
-			"years": ["June-July 2024"],
+			"years": ["Jun-Jul 2024"],
 			"details": [
-				"Developed real-world projects, including a full-scale ERP website and a demo AI website integrating APIs from the ML team.",
-				"Collaborate with cross-functional teams including product managers, admin, designer, and QA to deliver client-focused solutions.",
-				"Participate in code reviews and contribute to best practices, enhancing code quality and team knowledge sharing with mentor and fellow interns.",
-				"Engage in Agile methodologies, attending daily scrum meetings and sprint planning to improve workflow efficiency."
+				"Developed real-world projects, including a full-scale ERP website and a demo AI website using APIs from the ML team.",
+				"Collaborate with product managers, admins, designers, and QA to deliver client-focused solutions.",
+				"Engage in Agile methodologies, attending daily scrum meetings and sprint planning to improve workflow efficiency.",
+				"Participate in code reviews and contribute to best practices, enhancing code quality and team knowledge sharing with mentor and fellow interns."
 			]
 		}
 	],
@@ -109,7 +108,7 @@
 		{
 			"head": "King Mongkut's University of Technology Thonburi, Thailand",
 			"details": "B.Eng. Computer Engineering, TH. 2022-Present (Expected May 2026) (GPAX 3.59)",
-			"take_courses": "Basic Computer Programming, Data Structure, Algorithm"
+			"take_courses": "Basic Computer Programming, Data Structure, Algorithm, Database Management, Software Engineering"
 		}
 	],
 	"certifications": [
