@@ -13,7 +13,7 @@
 		{
 			"name": "Fundflow",
 			"task": "Backend",
-			"details": "Golang(Jwt, Gorm, Gin), Postgresql, Mailjet, Docker, PgAdmin",
+			"details": "Golang(Jwt, Gorm, Gin), PostgreSQL, Mailjet, Docker, PgAdmin",
 			"description": "I designed and implemented the backend architecture for this app, ensuring seamless alignment with the app’s design. This included developing robust APIs for authentication, database operations, and email notifications.",
 			"url": "github.com/tawayahc/FundFlow",
 			"hide": false
@@ -21,7 +21,7 @@
 		{
 			"name": "ArtPiece",
 			"task": "Fullstack",
-			"details": "ReactJS, NodeJs, MongoDB, Hugging Face Inference API, Cloudinary",
+			"details": "React, Node.js, MongoDB, Hugging Face Inference API, Cloudinary",
 			"description": "Web generates an image from text using stabilityai/stable-diffusion-2-1 API, stores the image into Cloudinary, and then I keep the image URL in MongoDB for querying to show in home page.",
 			"url": "github.com/WinRafaelx/Web_GenImage",
 			"hide": false
@@ -37,7 +37,7 @@
 		{
 			"name": "AnimeBlog",
 			"task": "Frontend",
-			"details": "ReactJS, MaterialUI, Firebase Database, Firebase Auth, Firebase Storage",
+			"details": "React, Material UI, Firebase Database, Firebase Auth, Firebase Storage",
 			"description": "I created a web blog about anime that users can register and log in to post and comment likes on Facebook by using Cloud platform to manage data and authentication.",
 			"url": "anime-post.pages.dev/",
 			"hide": false
@@ -68,15 +68,11 @@
 		},
 		{
 			"section": "Libraries & Frameworks:",
-			"details": "ReactJS, NextJS, TailwindCSS, Bootstrap, MaterialUI, Vite, Django"
+			"details": "React, Next.js, Tailwind CSS, Bootstrap, Material UI, Vite, Django"
 		},
 		{
 			"section": "Tools:",
 			"details": "Git, Docker, GitHub, MongoDB"
-		},
-		{
-			"section": "Other:",
-			"details": "Firebase, Vercel, CloudFlare, Hugging Face, VS Code, Google Colab"
 		}
 	],
 	"workExperiences": [
